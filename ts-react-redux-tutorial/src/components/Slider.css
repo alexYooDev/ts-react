@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+}
+
+.swiper-container {
+  /* make whole page */
+  width: 100vw;
+  height: 100vh;
+}
+
+.swiper-wrapper {
+  padding-inline-start: 0;
+}
+
+/* slides */
+.swiper-wrapper > * {
+  /* colors */
+  background: hsl(348, 83%, 47%);
+  color: white;
+
+  /* text layout */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
